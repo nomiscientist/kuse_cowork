@@ -21,7 +21,6 @@ src-tauri/Cargo.lock
 *.rpm
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -43,8 +42,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment & Secrets
-.env
-.env.local
 .env.*.local
 *.pem
 *.key
@@ -67,3 +64,4 @@ coverage/
 *.tmp
 *.temp
 .cache/
+config.bat
